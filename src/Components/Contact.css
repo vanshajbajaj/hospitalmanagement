@@ -1,0 +1,89 @@
+#contactmain{
+
+    width:100vw;
+    height:80vh;
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contactmid{
+
+    width:97%;
+    height:92%;
+    /* border:2px solid green; */
+    background-color: #e2e2e20f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 8px 2px #bc7a1792;
+
+}
+
+#midleft{
+
+    width:45%;
+    /* border:2px solid brown; */
+    height:90%;
+
+}
+
+#midright{
+
+    width:50%;
+    /* border:2px solid brown; */
+    height:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.google-map-code{
+    width:100%;
+    height:100%;
+}
+
+.google-map-code iframe{
+    width:100%;
+    height:100%;
+}
+
+#contacttext{
+
+    width:90%;
+    height:90%;
+    /* border:2px solid white; */
+    box-shadow: 0px 0px 8px 2px #fffefe92;
+    background-color: #e2e2e21a;
+    /* font-size: 20px; */
+    color:#e2e2e2;
+    font-family: BellFort;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.contacthead{
+    font-size: 45px;
+    text-align: left;
+    margin: 10px 60px;
+    border-bottom: 2px solid white;
+    width:80%;
+}
+
+.contactdesc{
+    font-size: 25px;
+    text-align: left;
+    margin:7px 60px;
+}
+
+.contacticon{
+    width:24px;
+    height:24px;
+}

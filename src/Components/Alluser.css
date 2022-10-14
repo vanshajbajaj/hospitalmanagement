@@ -1,0 +1,39 @@
+#tableall{
+    color:white;
+}
+
+#btta{
+    background-color: black;
+    margin-top: 20px;
+    width:200px;
+    height:40px;
+    box-shadow: 0px 0px 8px 2px #bc7a1792; 
+}
+
+#btta:hover{
+    box-shadow: 0px 0px 14px 4px #bc7a1792; 
+}
+
+#btte{
+    background-color: black;
+    margin-top: 20px;
+    width:80px;
+    height:30px;
+    box-shadow: 0px 0px 8px 2px #bc7a1792; 
+}
+
+#btte:hover{
+    box-shadow: 0px 0px 14px 4px #bc7a1792; 
+}
+
+#bttd{
+    background-color: black;
+    margin-top: 20px;
+    width:100px;
+    height:30px;
+    box-shadow: 0px 0px 8px 2px #bc7a1792; 
+}
+
+#bttd:hover{
+    box-shadow: 0px 0px 14px 4px #bc7a1792; 
+}

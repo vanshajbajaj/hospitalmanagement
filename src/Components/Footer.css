@@ -1,0 +1,105 @@
+#footermain{
+
+    width:100vw;
+    height:30vh;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e2e2e218;
+
+}
+
+.fdiv{
+
+    height:90%;
+    width:27%;
+    /* border:2px solid green; */
+
+}
+
+#footerleft{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#logopop{
+    height:70%;
+    width:45%;
+}
+
+#midline{
+    height:1px;
+    width:100%;
+    border:1px solid white;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+#footerlogotext{
+    color:white;
+    margin-top: 1px;
+}
+
+#footermid{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    color:white;
+}
+
+#footermid h3{
+    /* margin-top:100px; */
+    height:1px;
+    margin-bottom: -5px;
+}
+
+li{
+    margin:4px;
+}
+
+#footerright{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+    color:white;
+}
+
+#fmail{
+    margin-top: 10px;
+    width:300px;
+    height:30px;
+    background-color: black;
+    border: 0;
+    box-shadow: 0px 0px 3px 1px white;
+    color:white;
+}
+
+#fbutton{
+    margin-top: 8px;
+    width:100px;
+    height: 25px;
+    background-color: rgb(24, 24, 63);
+    color: white;
+}
+
+#flogos{
+    width:80%;
+    height:30%;
+    /* border:1px solid white; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flogoimg{
+    width:10%;
+    height:50%;
+}

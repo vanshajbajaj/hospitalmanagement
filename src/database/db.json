@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "vanshaj",
+      "username": "vanshajvb",
+      "email": "vanshajbajaj@gmail.com",
+      "phone": "8427539790",
+      "id": 3
+    },
+    {
+      "name": "vipul",
+      "username": "onlyvipul",
+      "email": "vk@gmail.com",
+      "phone": "767675674671",
+      "id": 6
+    }
+  ]
+}
