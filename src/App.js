@@ -11,6 +11,8 @@ import Alluser from './Components/Alluser';
 import Edituser from './Components/Edituser';
 import About from './Components/About';
 import Footer from './Components/Footer';
+import Upload from './Components/Upload';
+import View from './Components/View';
 
 function App() {
   return (
@@ -30,9 +32,11 @@ function App() {
           <Route exact path="/all" element={<Alluser />} />
           <Route exact path="/add" element={<Adduser />} />
           <Route exact path="/About" element={<About />} />
+          <Route exact path="/Upload" element={<Upload />} />
+          <Route exact path="/View" element={<View />} />
           <Route exact path="/edit/:id" element={<Edituser />} />
         </Routes>
-      {/* <Footer /> */}
+      <Footer />
       </BrowserRouter>
       {/* <Adduser /> */}
       {/* <Alluser /> */}

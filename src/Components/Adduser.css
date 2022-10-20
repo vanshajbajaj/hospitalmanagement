@@ -1,98 +1,27 @@
-#addusermain {
-
-    width: 100vw;
-    height: 82vh;
-    /* border:2px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#addusermid {
-
-    height: 90%;
-    width: 40%;
-    /* border:2px solid green; */
-    margin: Auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0px 0px 8px 2px #bc7a17b1;
-
-}
-
-#addusertext {
-    height: 12%;
-    /* border:2px solid red; */
-    width: 100%;
-    background-color: #e2e2e23e;
-    font-family: BellFort;
-}
-
-h1{
-    color: white;
-    font-size: 40spx;
-    text-align: center;
-    /* letter-spacing: 2px; */
-    /* width:0px; */
-}
-
-#addusertext h1{
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    text-align: center;
-    /* font-size: 30px; */
-    animation:
-        typing 3.5s steps(40, end),
-        blinker .75s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-@keyframes blinker {
-
-    from,
-    to {
-        border-color: transparent
-    }
-
-    50% {
-        border-color: orange;
-    }
-}
-
-#adduserform {
-    width: 100%;
-    height: 88%;
-    /* border:2px solid brown; */
-    background-color: #e2e2e21f;
-    color:white;
-
-}
 
 #c1{
+    margin-top: 30px;
     color:white;
-    background-color: rgba(255, 255, 255, 0.055);
+    background-color: rgba(40, 39, 39, 0.21);
+    /* border: 2px solid red; */
+    height:70vh;
+    width:50vw;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px #2b6777, 0px 0px 8px 2px #ffffff;
 }
 
 .aul{
-    color:white;
+    color:#2b6777;
 }
 
 .auc{
-    box-shadow: 0px 0px 8px 2px #bc7a17b1;
+    box-shadow: 0px 0px 8px 2px #2b6777;
     background-color: rgba(255, 255, 255, 0.11);
     height:50px;
+    width:400px;
+    color:#2b6777;
 }

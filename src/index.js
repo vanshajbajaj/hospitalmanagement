@@ -8,9 +8,10 @@ import sample from './logos/world2.mp4';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <video className='backk' autoPlay loop muted>
+    {/* <video className='backk' autoPlay loop muted>
         <source src={sample} type="video/mp4" />
-    </video>
+    </video> */}
+    <img className='backk' />
     <App />
   </React.StrictMode>
 );

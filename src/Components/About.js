@@ -1,9 +1,10 @@
 import React from "react";
 import "./About.css";
 import logo2 from "./../logos/MyWorld-logos_white.png"
-import d1 from "./../logos/r12.png";
-import d3 from "./../logos/j12.png";
-import d2 from "./../logos/r11.jpg";
+import d1 from "./../logos/hosp5.jpg";
+import d2 from "./../logos/hosp6.jpg";
+import d3 from "./../logos/hosp7.jpg";
+import d4 from "./../logos/hosp8.jpg";
 
 const About = () => {
 
@@ -18,69 +19,76 @@ const About = () => {
 
     return (
 
-        <div id="homemain">
+        <div id="aboutmaindiv">
 
-            {/* <div id="logopopupmain">
+            <div id="abouthead2">
+                <span>About Us</span>
+            </div>
 
-                <div id="logopopup">
-                    <img src={logo2} id="logopop" />
+            <div id="aboutbackk">
+
+                <div className="aboutuscard">
+
+                    <div className="aboutuscardleft">
+                        <img src={d1} className="aboutuscardimg" />
+                    </div>
+                    <div className="aboutuscardright aboutuscardtextdiv">
+                        <span className="aboutuscardhead">Our Doctors</span>
+                        <span className="aboutuscardtext">We have a team of highly qualified doctors who have great
+                            experience and have great record history.One of the essential qualities of the clinician is
+                            interest in humanity, for the secret of the care of the patient is in caring for the patient</span>
+                    </div>
+
+
                 </div>
 
-            </div> */}
-            <div id="introtext1">
-                {/* <img id="logomid" src={logo2} /> */}
-                <h1>
-                    About us
-                </h1>
-                {/* <h3 className="midintrotext">
-                    This website is my ST4 project and contains CRUD operations using json server.
-                </h3> */}
-                <div id="introdata">
-                    <div className="cards">
-                        <div className="leftlogoo cardtext">
-                            {/* <img src={d1} className="midtextimg" /> */}
-                            <span className="texttt">This website is St4 project for students of chitkara university.
-                            it contains sample data and some images. we can switch between pages using routing.
-                            Routing is done by using useNavigate feature. </span>
-                        </div>
-                        <div className="righttextt cardtext">
-                            <span className="texttt">This website is made using react and contains CRUD features.
-                            We are using json server to create, read, update and delete data from our json file.
-                            axios is using Post and Get from api to access data. </span>
-                        </div>
+                <div className="aboutuscard">
+
+                    <div className="aboutuscardleft aboutuscardtextdiv">
+                        <span className="aboutuscardhead">Experienced Staff</span>
+                        <span className="aboutuscardtext">There are many people who contribute to your care while
+                         you are in hospital. Numerous people and services work together to provide you with 
+                         successful treatment in a hospital, from medical assessments and daily treatment to 
+                         medication and catering.</span>
                     </div>
-                    <div className="cards">
-                        {/* <div className="leftlogoo cardtext">
-                            <span className="texttt">SpaceX's Starship spacecraft and Super Heavy rocket collectively referred to as Starship
-                             represent a fully reusable transportation system designed to carry both crew and cargo to Earth orbit,
-                              the Moon, Mars and beyond. </span>
-                        </div> */}
-                        <div className="righttextt" style={{margin:'auto'}}>
-                            <img src={d2} className="midtextimg" />
-                        </div>
+                    <div className="aboutuscardright">
+                        <img src={d2} className="aboutuscardimg" />
                     </div>
-                    <div className="cards">
-                        <div className="leftlogoo">
-                            <img src={d1} className="midtextimg" />
-                        </div>
-                        <div className="righttextt cardtext">
-                            <span className="texttt">React is a JavaScript library for building user interfaces.
-                            React is used to build single-page applications.
-                            React allows us to create reusable UI components. </span>
-                        </div>
-                    </div>
-                    <div className="cards">
-                        <div className="leftlogoo cardtext">
-                            <span className="texttt">The JSON format is syntactically similar to the code for creating 
-                            JavaScript objects. Because of this, a JavaScript program can easily convert JSON data into JavaScript objects.
-                            Since the format is text only, JSON data can easily be sent between computers
-                            , and used by any programming language.</span>
-                        </div>
-                        <div className="righttextt">
-                            <img src={d3} className="midtextimg" />
-                        </div>
-                    </div>
+
+
                 </div>
+
+                <div className="aboutuscard">
+
+                    <div className="aboutuscardleft">
+                        <img src={d3} className="aboutuscardimg" />
+                    </div>
+                    <div className="aboutuscardright aboutuscardtextdiv">
+                        <span className="aboutuscardhead">Patient's Experiences</span>
+                        <span className="aboutuscardtext">Patient experience encompasses the range of interactions
+                         that patients have with the healthcare system, including their care from health plans, and
+                          from doctors, nurses, and staff in hospitals, physician practices, and other healthcare 
+                          facilities.</span>
+                    </div>
+
+
+                </div>
+
+                <div className="aboutuscard">
+
+                    <div className="aboutuscardleft aboutuscardtextdiv">
+                        <span className="aboutuscardhead">Patient-Friendly Atmosphere</span>
+                        <span className="aboutuscardtext">patients identified having a need for personal space,
+                         a homely welcoming atmosphere, a supportive environment, good physical design, access
+                          to external areas and provision of facilities for recreation and leisure.</span>
+                    </div>
+                    <div className="aboutuscardright">
+                        <img src={d4} className="aboutuscardimg" />
+                    </div>
+
+
+                </div>
+
             </div>
 
         </div>

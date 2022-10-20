@@ -1,6 +1,7 @@
 * {
   padding: 0;
   font-family: Arial,sans-serif;
+  
 }
 
 body {
@@ -33,4 +34,6 @@ code {
   top: 0;
   bottom: 0; */
   z-index: -1;
+  background-image: url("./logos/backk1.PNG");
+  background-size: cover;
 }

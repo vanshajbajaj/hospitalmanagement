@@ -12,10 +12,11 @@ const initialValue = {
 }
 
 const Container = styled(FormGroup)`
-    width: 50%;
+    width: 70%;
     margin: 5% 0 0 25%;
     & > div {
         margin-top: 20px;
+        
 `;
 
 const Adduser = () => {
@@ -33,26 +34,30 @@ const Adduser = () => {
     }
 
     return (
-        <Container id="c1">
-            <Typography variant="h4">Add User</Typography>
-            <FormControl>
+        <Container id="c1" style={{backgroundColor:'rgba(40, 39, 39, 0.15)'}}>
+            <Typography variant="h4" style={{color:'#2b6777',fontWeight:600,textDecoration:'underline',textShadow:'0px 0px 7px white'}}>
+                Add Patient
+            </Typography>
+            <FormControl className='addusermidfc'>
                 <InputLabel htmlFor="my-input" className='aul' variant='outlined' style={{color:'white'}}>Name</InputLabel>
                 <Input onChange={(e) => onValueChange(e)} name='name' className='auc' style={{color:'white'}} value={name} id="my-input" />
             </FormControl>
-            <FormControl>
-                <InputLabel htmlFor="my-input" className='aul' variant='outlined' style={{color:'white'}}>Username</InputLabel>
+            <FormControl className='addusermidfc'>
+                <InputLabel htmlFor="my-input" className='aul' variant='outlined' style={{color:'white'}}>Address</InputLabel>
                 <Input onChange={(e) => onValueChange(e)} name='username' className='auc' style={{color:'white'}} value={username} id="my-input" />
             </FormControl>
-            <FormControl>
+            <FormControl className='addusermidfc'>
                 <InputLabel htmlFor="my-input" className='aul' variant='outlined' style={{color:'white'}}>Email</InputLabel>
                 <Input onChange={(e) => onValueChange(e)} name='email' className='auc' style={{color:'white'}} value={email} id="my-input"/>
             </FormControl>
-            <FormControl>
+            <FormControl className='addusermidfc'>
                 <InputLabel htmlFor="my-input" className='aul' variant='outlined' style={{color:'white'}}>Phone</InputLabel>
                 <Input onChange={(e) => onValueChange(e)} name='phone' className='auc' style={{color:'white'}} value={phone} id="my-input" />
             </FormControl>
-            <FormControl>
-                <Button variant="contained" color="primary" onClick={() => addUserDetails()}>Add User</Button>
+            <FormControl className='addusermidfc'>
+                <Button variant="contained"
+                style={{backgroundColor:'#2b6777',boxShadow:'0px 0px 4px 0px white'}}
+                color="primary" onClick={() => addUserDetails()}>Add Patient</Button>
             </FormControl>
         </Container>
     )

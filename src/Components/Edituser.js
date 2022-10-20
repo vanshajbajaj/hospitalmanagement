@@ -13,9 +13,9 @@ const initialValue = {
 }
 
 const Container = styled(FormGroup)`
-    width: 50%;
+    width: 70%;
     margin: 5% 0 0 25%;
-    box-shadow: 0px 0px 5px 1px #bc7a17b1;
+    // box-shadow: 0px 0px 5px 1px #bc7a17b1;
     & > div {
         margin-top: 20px
 `;
@@ -48,26 +48,26 @@ const Edituser = () => {
     }
 
     return (
-        <Container>
-            <Typography variant="h4" id="c1">Edit Information</Typography>
+        <Container id="c1e" style={{backgroundColor:'rgba(40, 39, 39, 0.15)'}}>
+            <Typography variant="h4">Edit Information</Typography>
             <FormControl>
-                <InputLabel htmlFor="my-input" className='cul' variant='outlined' style={{color:'white'}}>Name</InputLabel>
-                <Input onChange={(e) => onValueChange(e)} className='cuc' name='name' style={{color:'white'}} value={name} id="my-input" aria-describedby="my-helper-text" />
+                <InputLabel htmlFor="my-input" className='cule' variant='outlined' style={{color:'white'}}>Name</InputLabel>
+                <Input onChange={(e) => onValueChange(e)} className='cuce' name='name' style={{color:'white'}} value={name} id="my-input" aria-describedby="my-helper-text" />
             </FormControl>
             <FormControl>
-                <InputLabel htmlFor="my-input" className='cul' variant='outlined' style={{color:'white'}}>Username</InputLabel>
-                <Input onChange={(e) => onValueChange(e)} className='cuc' name='username' style={{color:'white'}} value={username} id="my-input" aria-describedby="my-helper-text" />
+                <InputLabel htmlFor="my-input" className='cule' variant='outlined' style={{color:'white'}}>Address</InputLabel>
+                <Input onChange={(e) => onValueChange(e)} className='cuce' name='username' style={{color:'white'}} value={username} id="my-input" aria-describedby="my-helper-text" />
             </FormControl>
             <FormControl>
-                <InputLabel htmlFor="my-input" className='cul' variant='outlined' style={{color:'white'}}>Email</InputLabel>
-                <Input onChange={(e) => onValueChange(e)} className='cuc' name='email' style={{color:'white'}} value={email} id="my-input" aria-describedby="my-helper-text" />
+                <InputLabel htmlFor="my-input" className='cule' variant='outlined' style={{color:'white'}}>Email</InputLabel>
+                <Input onChange={(e) => onValueChange(e)} className='cuce' name='email' style={{color:'white'}} value={email} id="my-input" aria-describedby="my-helper-text" />
             </FormControl>
             <FormControl>
-                <InputLabel htmlFor="my-input" className='cul' variant='outlined' style={{color:'white'}}>Phone</InputLabel>
-                <Input onChange={(e) => onValueChange(e)} className='cuc' name='phone' style={{color:'white'}} value={phone} id="my-input" aria-describedby="my-helper-text" />
+                <InputLabel htmlFor="my-input" className='cule' variant='outlined' style={{color:'white'}}>Phone</InputLabel>
+                <Input onChange={(e) => onValueChange(e)} className='cuce' name='phone' style={{color:'white'}} value={phone} id="my-input" aria-describedby="my-helper-text" />
             </FormControl>
             <FormControl>
-                <Button variant="contained" color="primary" onClick={() => editUserDetails()}>Edit User</Button>
+                <Button variant="contained" color="primary" style={{backgroundColor:'#2b6777',boxShadow:'0px 0px 4px 0px white'}} onClick={() => editUserDetails()}>Edit User</Button>
             </FormControl>
         </Container>
     )

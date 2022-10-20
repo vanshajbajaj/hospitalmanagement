@@ -1,39 +1,64 @@
+#allusermain{
+    height:100vh;
+}
+
 #tableall{
     color:white;
+    background-color: #1e1f1f21;
+    box-shadow: 0px 0px 10px 2px #2b6777, 0px 0px 8px 2px #ffffff;
 }
 
 #btta{
-    background-color: black;
+    background-color: #2b6777;
     margin-top: 20px;
     width:200px;
     height:40px;
-    box-shadow: 0px 0px 8px 2px #bc7a1792; 
+    box-shadow: 0px 0px 8px 2px #ffffff92; 
+    z-index: auto;
 }
 
 #btta:hover{
-    box-shadow: 0px 0px 14px 4px #bc7a1792; 
+    box-shadow: 0px 0px 14px 4px #52ab98; 
+}
+
+#bttupa{
+    background-color: #2b6777;
+    margin-top: 20px;
+    width:200px;
+    height:40px;
+    box-shadow: 0px 0px 8px 2px #ffffff92; 
+    z-index: auto;
+    margin-left: 10px;
+}
+
+#bttupa:hover{
+    box-shadow: 0px 0px 14px 4px #52ab98; 
 }
 
 #btte{
-    background-color: black;
+    background-color: #2b6777;
     margin-top: 20px;
     width:80px;
     height:30px;
-    box-shadow: 0px 0px 8px 2px #bc7a1792; 
+    box-shadow: 0px 0px 8px 2px #ffffff92; 
 }
 
 #btte:hover{
-    box-shadow: 0px 0px 14px 4px #bc7a1792; 
+    box-shadow: 0px 0px 14px 4px #52ab98; 
 }
 
 #bttd{
-    background-color: black;
+    background-color: #2b6777;
     margin-top: 20px;
     width:100px;
     height:30px;
-    box-shadow: 0px 0px 8px 2px #bc7a1792; 
+    box-shadow: 0px 0px 8px 2px #ffffff92; 
 }
 
 #bttd:hover{
-    box-shadow: 0px 0px 14px 4px #bc7a1792; 
+    box-shadow: 0px 0px 14px 4px #52ab98; 
+}
+
+#usertablehead{
+    color:#2b6777
 }

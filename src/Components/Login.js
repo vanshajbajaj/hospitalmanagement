@@ -55,7 +55,7 @@ const Login = () => {
                                 <Form.Group className="mb-3" controlId="email">
 
                                 <td>
-                                    <Form.Label className="fl">Email:</Form.Label>
+                                    <Form.Label className="fl">Enter Email:</Form.Label>
                                 </td>
                                 <td><Form.Control className="fc"
 
@@ -78,7 +78,7 @@ const Login = () => {
                             </tr>
                             <tr>
                                 <Form.Group className="mb-3" controlId="password">
-                                <td><Form.Label className="fl">Password:</Form.Label></td>
+                                <td><Form.Label className="fl">Enter Password:</Form.Label></td>
                                 <td><Form.Control className="fc"
 
                                     placeholder="Enter password"

@@ -1,13 +1,13 @@
 #footermain{
 
     width:100vw;
-    height:30vh;
+    height:50vh;
     /* border:2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #e2e2e218;
+    background-color: #2b677765;
 
 }
 
@@ -16,6 +16,7 @@
     height:90%;
     width:27%;
     /* border:2px solid green; */
+    background-color: rgba(0, 0, 0, 0.091);
 
 }
 
@@ -24,6 +25,11 @@
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
+}
+
+#footerimg2{
+    width:70%;
+    height:70%;
 }
 
 #logopop{
@@ -42,24 +48,39 @@
 #footerlogotext{
     color:white;
     margin-top: 1px;
+    font-size: 18px;
 }
 
 #footermid{
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    /* justify-content:space-around; */
     align-items: center;
     color:white;
+
 }
 
-#footermid h3{
-    /* margin-top:100px; */
-    height:1px;
-    margin-bottom: -5px;
+#footermidhead{
+    margin-top: 30px;
+    font-size:18px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 400;
 }
 
-li{
-    margin:4px;
+#footermidtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(209, 204, 204);
+    justify-content: space-around;
+    height:70%;
+    margin-top: 10px;
+}
+
+#footermidtext span:hover{
+    color:black;
 }
 
 #footerright{
@@ -70,27 +91,46 @@ li{
     color:white;
 }
 
-#fmail{
+#footerinp{
+
+    height:60%;
+    width:80%;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#footerinp span{
     margin-top: 10px;
-    width:300px;
+    font-size:18px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#fmail{
+    width:65%;
     height:30px;
-    background-color: black;
-    border: 0;
-    box-shadow: 0px 0px 3px 1px white;
+    background-color: rgba(255, 255, 255, 0.158);
+    border:0px;
+    text-align: center;
     color:white;
 }
 
 #fbutton{
-    margin-top: 8px;
-    width:100px;
-    height: 25px;
-    background-color: rgb(24, 24, 63);
-    color: white;
+    width:40%;
+    height:25px;
+    background-color: #2b6777;
+    border:0px;
+    color:rgb(207, 200, 200);
 }
 
 #flogos{
-    width:80%;
-    height:30%;
+    width:70%;
+    height:20%;
     /* border:1px solid white; */
     margin-top: 20px;
     display: flex;

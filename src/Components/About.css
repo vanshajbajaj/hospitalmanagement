@@ -1,3 +1,4 @@
+
 #homemain{
 
     width:100vw;
@@ -176,4 +177,99 @@
     color:white;
     font-family: BellFort;
     line-height: 40px;
+}
+
+#aboutmaindiv{
+
+    width:100vw;
+    height:200vh;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#abouthead2{
+    width:100%;
+    height:10vh;
+    /* border:1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#abouthead2 span{
+    /* margin:auto; */
+    color:aliceblue;
+    font-size: 30px;
+    /* text-decoration: underline; */
+    letter-spacing: 2px;
+    text-shadow:1px 1px 2px #287186;
+}
+
+#aboutbackk{
+    background-color: #2b677768;
+    width:80%;
+    height:250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.aboutuscard{
+    width:80%;
+    height:40vh;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff1b;
+}
+
+.aboutuscardleft{
+    height:100%;
+    width:50%;
+    /* border:1px solid green; */
+}
+
+.aboutuscardright{
+    height:100%;
+    width:50%;
+    /* border:1px solid green; */
+}
+
+.aboutuscardimg{
+    width:100%;
+    height:100%;
+}
+
+.aboutuscardtextdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.aboutuscardhead{
+    color:#287186;
+    font-size: 34px;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px white;
+    margin: 20px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    text-decoration: wavy;
+    text-decoration-color: white;
+}
+
+.aboutuscardtext{
+    color:white;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin: 10px;
+    font-size: 16px;
 }

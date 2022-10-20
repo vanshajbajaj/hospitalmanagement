@@ -1,18 +1,18 @@
 {
   "users": [
     {
-      "name": "vanshaj",
-      "username": "vanshajvb",
-      "email": "vanshajbajaj@gmail.com",
-      "phone": "8427539790",
-      "id": 3
+      "name": "vipul",
+      "username": "bihar",
+      "email": "vk@gmail.com",
+      "phone": "732762534876485",
+      "id": 1
     },
     {
-      "name": "vipul",
-      "username": "onlyvipul",
-      "email": "vk@gmail.com",
-      "phone": "767675674671",
-      "id": 6
+      "name": "swayam",
+      "username": "delhi",
+      "email": "sp@gmail.com",
+      "phone": "9988776655",
+      "id": 2
     }
   ]
 }

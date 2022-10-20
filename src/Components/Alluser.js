@@ -17,7 +17,9 @@ const THead = styled(TableRow)`
     & > th {
         font-size: 20px;
         //background: #000000;
-        color: #FFFFFF;
+        // color: #FFFFFF;
+        color:#2b6777;
+        font-weight:700;
         background-color: rgba(255, 255, 255, 0.20);
     }
 `;
@@ -51,13 +53,13 @@ const Alluser = () => {
     }
 
     return (
-        <div>
+        <div id="allusermain">
         <StyledTable id="tableall">
             <TableHead>
-                <THead>
+                <THead id="usertablehead">
                     <TableCell>Id</TableCell>
-                    <TableCell>Name</TableCell>
-                    <TableCell>Username</TableCell>
+                    <TableCell>Patient Name</TableCell>
+                    <TableCell>Address</TableCell>
                     <TableCell>Email</TableCell>
                     <TableCell>Phone</TableCell>
                     <TableCell></TableCell>
@@ -79,7 +81,8 @@ const Alluser = () => {
                 ))}
             </TableBody>
         </StyledTable>
-        <Button id="btta" color="secondary" variant="contained" onClick={() =>{navigate("/add");} }>Add user</Button>
+        <Button id="btta" color="secondary" variant="contained" onClick={() =>{navigate("/add");} }>Add Patient</Button>
+        <Button id="bttupa" color="secondary" variant="contained" onClick={() =>{navigate("/Upload");} }>Upload Image</Button>
         </div>
     )
 }
